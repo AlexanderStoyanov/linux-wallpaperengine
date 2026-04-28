@@ -42,6 +42,15 @@
 	  "#define fmod(x, y) ((x)-(y)*trunc((x)/(y)))\n"                                                              \
 	  "#define ddx dFdx\n"                                                                                         \
 	  "#define ddy(x) dFdy(-(x))\n"                                                                                \
+	  "#define float2 vec2\n"                                                                                       \
+	  "#define float3 vec3\n"                                                                                       \
+	  "#define float4 vec4\n"                                                                                       \
+	  "#define float2x2 mat2\n"                                                                                     \
+	  "#define float3x3 mat3\n"                                                                                     \
+	  "#define float4x4 mat4\n"                                                                                     \
+	  "#define int2 ivec2\n"                                                                                        \
+	  "#define int3 ivec3\n"                                                                                        \
+	  "#define int4 ivec4\n"                                                                                        \
 	  "#define GLSL 1\n\n";
 #define FRAGMENT_SHADER_DEFINES                                                                                        \
     "out vec4 out_FragColor;\n"                                                                                        \
